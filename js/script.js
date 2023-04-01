@@ -5,7 +5,6 @@ function validaCadastro(){
   const campoSenha = document.getElementById('password');
   const campoConfSenha = document.getElementById('confpassword');
 
-
   if(campoNome.value =="" ){
       alert('O campo nome de usuario é obrigatorio');
       return false;
